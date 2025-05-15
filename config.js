@@ -10,7 +10,7 @@ const defaultOwner = '263780166288';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '263780166288' ; // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '2347050510935' ; // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -19,8 +19,8 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'ᴊɪɴᴡᴏᴏ ᴠ4';
-global.pairingNumber = process.env.BOT_NUMBER || '263780166288' ;  // put your number here
+global.botname = process.env.BOTNAME || '𝓥𝓲𝓬𝓽𝓸𝓻';
+global.pairingNumber = process.env.BOT_NUMBER || '2347050510935' ;  // put your number here
 global.SESSION_ID = process.env.SESSION_ID || 'i4wnHboS#KjHlXXXQay70ERcIKZWOlUT8-_BhzcKkCXI_rgrDpW4' ;  // put your session id here
 
 global.mods = []
