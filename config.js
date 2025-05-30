@@ -19,9 +19,9 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'ᴊɪɴᴡᴏᴏ ᴠ4';
-global.pairingNumber = process.env.BOT_NUMBER || '' ;  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
+global.botname = process.env.BOTNAME || '243839151051';
+global.pairingNumber = process.env.BOT_NUMBER || '𓃵 ꧁𝖂𝖎𝖓𝖓𝖎𝖊𓃭༺𝖂𝖆𝖑𝖐𝖊𝖗 ༆꧂∘' ;  // put your number here
+global.SESSION_ID = process.env.SESSION_ID || 'c2dBUJwJ#ninxe9ATuvRDX2WS2uJl1HjYubCjaptfKwmdqsdkDR4' ;  // put your session id here
 
 global.mods = []
 global.prems = []
